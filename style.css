@@ -1,0 +1,141 @@
+/*
+    » Wagner Lima | www.wagnerlima.net | @wagnerlimaNET «
+    Professor de desenvolvimento web e design na escola iwtraining, especialista em mecanismos de 
+    buscas (SEO) e graduando em Sistemas e Mídias Digitais na Universidade Federal do Ceará (UFC).
+*/
+
+body {
+  margin: 10% 0px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(129deg, #333, #000);
+  background-size: 500% 500%;
+  animation: bganimado 10s ease infinite;
+  }
+  
+  @keyframes bganimado {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+      }
+
+  /* início das propriedados globais (geral) */
+  .posicaorelativa {
+    position:relative;
+    }
+
+  .posicaoabsoluta {
+    position:absolute;
+    }
+
+  .bordaarredondada {
+    border-radius:50%;
+    }
+
+  .amarelo {
+    background:#fffb3b;
+    }
+
+  .preto {
+    background: #000;
+    }
+/* fim das propriedados globais (geral) */
+
+/* início das propriedades individuais */
+  .simbolo-batman {
+    height:150px;
+    width:250px;
+    overflow:hidden;
+    }
+
+    .circulo-principal {
+      height:130px;
+      width:230px;
+      border-radius:50%;
+      border:6px solid #000;
+      top:3px;
+      left:4px;
+      overflow:hidden;
+      }
+
+      .circulos-internos {
+        height:112px;
+        width:213px;
+        border-radius:50%;
+        top:9px;
+        left:9px;
+        }
+
+        .primeiro-circulo {
+          height:70px;
+          width:33px;
+          top:67px;
+          left:44px;
+          transform: rotate(-41deg);
+          }
+    
+        .segundo-circulo {
+          height:70px;
+          width:38px;
+          top:73px;
+          left:68px;
+          transform: rotate(-15deg);
+          } 
+
+        .terceiro-circulo {
+          height:70px;
+          width:33px;
+          top:67px;
+          right:44px;
+          transform: rotate(41deg);
+          }
+
+        .quarto-circulo {
+          height:70px;
+          width:38px;
+          top:73px;
+          right:68px;
+          transform: rotate(15deg);
+          }
+
+        .quinto-circulo {
+          height:40px;
+          width:37px;
+          top:0px;
+          left:57px;
+          transform: rotate(15deg);
+          }
+
+        .sexto-circulo {
+          height:40px;
+          width:37px;
+          top:0px;
+          right:57px;
+          transform: rotate(15deg);
+          }
+
+        .primeiro-quadrado {
+          height:20px;
+          width:20px;
+          top:0px;
+          left:74px;
+          }
+
+        .segundo-quadrado {
+          height:20px;
+          width:20px;
+          top:0px;
+          right:74px;
+          }
+
+        .trapezio {
+          top:0px;
+          left:95px;
+          border-bottom: 12px solid #fffb3b;
+          border-left: 6px solid transparent;
+          border-right: 6px solid transparent;
+          height: 0;
+          width: 11px;
+          transform: rotate(180deg);
+          }
+/* fim das propriedades individuais */
